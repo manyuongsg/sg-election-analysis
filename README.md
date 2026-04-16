@@ -15,4 +15,4 @@ This project required rigorous data engineering to make historical comparisons p
 * **Shifting Margins:** Discovered a [Insert %] shift in voter behavior within [Insert specific demographic or constituency type] between the [Year] and [Year] elections.
 * **The "Swing" Factors:** Identified that [Insert specific factor] correlated more strongly with swing votes than traditional geographic predictors.
 
-*👉 [View the Final Graphic Feature Here](link-to-your-pdf-or-image)*
+*👉 [View the Final Graphic Feature Here]([link-to-your-pdf-or-image](https://github.com/manyuongsg/sg-election-analysis/blob/main/visualisation/%5BFor%20Submission%5D%20Dashboard%20-%20Analyzing%20Electoral%20Patterns%20in%20Singapore's%20General%20Elections.twb)*
