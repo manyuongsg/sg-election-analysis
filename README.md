@@ -1,6 +1,6 @@
 # 🗳️ Singapore Parliamentary General Elections: A Data Journalism Feature
 
-![SQL](https://img.shields.io/badge/sql-4479A1?style=for-the-badge&logo=postgresql&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![SQL](https://img.shields.io/badge/sql-4479A1?style=for-the-badge&logo=postgresql&logoColor=white) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
 
 ### The Mission
 Elections generate massive amounts of fragmented data across different constituencies, years, and demographic shifts. The goal of this project was to act as a data journalist: extracting a compelling, unbiased narrative from raw electoral data and presenting it as a clear graphic feature for the public.
