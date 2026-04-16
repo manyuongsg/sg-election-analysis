@@ -1,23 +1,18 @@
-# 🛡️ Family Service Centre (FSC) Triage Application: Domestic Violence Risk Predictor
+# 🗳️ Singapore Parliamentary General Elections: A Data Journalism Feature
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) 
+![SQL](https://img.shields.io/badge/sql-4479A1?style=for-the-badge&logo=postgresql&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
 ### The Mission
-Social workers at Family Service Centres face immense caseloads, making it difficult to instantly identify which families are at the highest immediate risk of domestic violence. This project provides a machine-learning-driven triage application to help prioritize cases, ensuring that vulnerable families receive proactive, life-saving interventions faster.
+Elections generate massive amounts of fragmented data across different constituencies, years, and demographic shifts. The goal of this project was to act as a data journalist: extracting a compelling, unbiased narrative from raw electoral data and presenting it as a clear graphic feature for the public.
 
-### The Solution
-I built an end-to-end predictive model and application designed for ministry-level stakeholders. By analyzing historical case data and demographic indicators, the application assigns a "Risk Probability Score" to new intakes.
+### The Analytical Process
+This project required rigorous data engineering to make historical comparisons possible.
+- **Data Wrangling (SQL & Pandas):** Cleaned and standardized multi-year election datasets, resolving inconsistencies in constituency boundary changes and naming conventions.
+- **Exploratory Data Analysis:** Investigated the correlation between demographic shifts (e.g., age, housing types) and voting margins over the last three election cycles.
+- **Visual Storytelling:** Developed a comprehensive graphic feature that translates complex political data into an accessible, visual narrative.
 
-### Technical Methodology
-- **Data Privacy:** Handled highly sensitive case data with strict anonymization protocols. *(Note: Raw data is excluded from this repository to protect PII. Synthetic data is provided for code execution).*
-- **Modeling:** Evaluated multiple classification algorithms, ultimately selecting **Random Forest** and **kNN** for their ability to handle non-linear relationships and provide interpretable feature importance for social workers.
-- **Deployment:** Packaged the model into a user-friendly application interface for non-technical caseworkers.
+### Key Findings
+* **Shifting Margins:** Discovered a [Insert %] shift in voter behavior within [Insert specific demographic or constituency type] between the [Year] and [Year] elections.
+* **The "Swing" Factors:** Identified that [Insert specific factor] correlated more strongly with swing votes than traditional geographic predictors.
 
-### Key Insights
-* **Feature Importance:** Identified that [Insert Feature, e.g., frequency of past police visits] was the strongest predictor of escalation, overriding traditional socioeconomic indicators.
-* **Model Accuracy:** Achieved an F1-score of [Insert Metric]% in predicting high-risk minority classes, minimizing false negatives (which carry a high human cost).
-
-### How to Run Locally
-1. Clone the repo: `git clone [your-link]`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Launch the app: `python app/triage_app.py`
+*👉 [View the Final Graphic Feature Here](link-to-your-pdf-or-image)*
